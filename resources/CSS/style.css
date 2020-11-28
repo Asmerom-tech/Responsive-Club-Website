@@ -1,0 +1,171 @@
+/* 
+font-family: 'Castoro', serif;
+font-family: 'Merriweather', serif;
+font-family: 'Poppins', sans-serif;
+*/
+*{
+  margin: 0;
+  padding: 0;
+  max-width: 100%;
+  font-family: 'Castoro', serif;
+  font-family: 'Merriweather', serif;
+  font-family: 'Poppins', sans-serif;
+}
+
+/*  header-area */
+.header {
+  position: relative;
+  width: 100%;
+  background-color: rgb(243, 245, 244);
+  padding-top: 1.2rem;
+  text-align: right;
+}
+#logo {
+  background-repeat: no-repeat;
+  max-width: 150px;
+  height: 50px;
+  position: absolute;
+  top: 0.5rem;
+  left: 2rem;
+  border-radius: 50%;
+}
+nav li {
+  display: inline;
+  width: 80%;
+  margin-right: 7rem;
+  font-family: 'Merriweather', serif;
+  font-weight: 600;
+  color: rgb(10, 9, 9);
+}
+/* container */
+.container{
+  font-family: 'Merriweather', serif;
+    font-size: 1rem;
+    margin: 0;
+   background-color: rgb(232, 234, 235);
+    
+  
+}
+/* main-area */
+.qoute{
+  text-align: center;
+  color: rgb(12, 11, 11);
+  font-size: 4rem;
+  font-weight: 900;
+  font-family: Merriweather;
+}
+.story {
+  width: 95%;
+  height: 10rem;
+  text-align: center;
+  background-color: rgb(243, 245, 244);
+  padding-bottom: 1rem;
+}
+.story p {
+  position: relative;
+  display: inline-block;
+  font-size: 1rem;
+  white-space: wrap;
+  color: rgb(71, 69, 69);
+}
+
+.story h2 {
+  color: rgb(48, 46, 46);
+}
+.img{
+   margin: 10px 0;
+    width: 100%;
+    height: 20rem;
+    padding-top: 13rem;
+    text-align: center;
+    position: relative;
+}
+#run.img {
+  background-image: url('../images/run1.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+#race.img{
+  background-image: url('../images/run2.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+#training.img{
+  background-image: url('../images/run3.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+#exercise.img{
+  background-image: url('../images/run4.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+#marathon.img{
+  background-image: url('../images/run5.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+/* footer-area */
+.footer {
+  position: relative;
+  background-color: rgb(234, 250, 242);
+  text-align: center;
+  font-weight: 300;
+  color: rgb(10, 4, 5);
+  width: 100%;
+  margin-top: 1rem;
+  font-size: 1rem;
+}
+/* media-screen responsive */
+@media only screen and (max-width: 1024px) {
+  .img {
+   max-width: 100%;
+   height: auto;
+   display: block;
+  }
+  #hmobile {
+    display: none;
+  }
+ }
+
+@media only screen and (max-width: 768px) {
+ .img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+ }
+ #hmobile {
+   display: none;
+ }
+ nav li {
+   display: inline-block;
+ }
+ .story p {
+   display: inline;
+   font-size: 0.85rem;
+ }
+}
+
+@media only screen and (max-width: 480px) {
+  nav li {
+    display: inline-block;
+  }
+  .story p {
+    display: inline;
+    font-size: 0.85rem;
+  }
+  .img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    overflow: hidden;
+  }
+  #hmobile {
+    display: none;
+  }
+}
